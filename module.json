@@ -1,0 +1,12 @@
+{
+    "disableAutoUpdate": false,
+    "name": "Drophistory",
+    "author": "Neko",
+    "description": "Sends a message in proxy chat when selected items drop",
+    "options": {
+        "niceName": "Drophistory",
+        "guiName": "Drophistory"
+    },
+    "servers": ["https://raw.githubusercontent.com/patricksantozz/Drophistory/master/"],
+    "supportUrl": "https://github.com/patricksantozz/Drophistory/issues"
+}
