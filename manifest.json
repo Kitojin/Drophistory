@@ -5,8 +5,9 @@
             "overwrite": false,
             "hash": "f69597ee6683b54601c39594e93aa5f36cfe01999f3366d8de73f1b529830b9c"
         },
-        "index.js": "feaed89d0e9cbe2082d06ba8ca2a6daf73a0f7bf51e5821113e16e3b013c233c",
-        "module.json": "7cb0da0a6308917911ba7bd0b5d5ab8de9b70e7c5d3d987b6c1d4c3877c56fe6"
+        "index.js": "87f0330ca9b151b4b65dd70406f0a16e411e1134180bd1cc455e8758e647745e",
+        "module.json": "7cb0da0a6308917911ba7bd0b5d5ab8de9b70e7c5d3d987b6c1d4c3877c56fe6",
+        "readme.md": "a74be2d49ed815ddbe7f400b5e314510bb0d061c9096dd0110197bfbe86e94ab"
     },
     "defs": {
         "S_SPAWN_DROPITEM": 8
