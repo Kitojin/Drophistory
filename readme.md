@@ -23,6 +23,6 @@ Supported Items:
 - Relique & Haildoms
 
 ## Roadmap:
-Multi-Lang Support
-better grp member overview
-and more
+- Multi-Lang Support
+- better grp member overview
+- and more
