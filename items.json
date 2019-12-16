@@ -1798,5 +1798,77 @@
     "unk1": 0,
     "cooldown": 0,
     "icon_string": "icon_items.belt39b_tex"
+  },
+  {
+    "index": 98671,
+    "rarity": 3,
+    "name_string": "Refined Lepidoptera Crystal Dust",
+    "unk1": 0,
+    "cooldown": 0,
+    "icon_string": "icon_items.refined_insecta14_tex"
+  },
+  {
+    "index": 98672,
+    "rarity": 3,
+    "name_string": "Refined Lepidoptera Crystal Powder",
+    "unk1": 0,
+    "cooldown": 0,
+    "icon_string": "icon_items.refined_insecta12_tex"
+  },
+  {
+    "index": 98673,
+    "rarity": 3,
+    "name_string": "Purified Ring Fragment",
+    "unk1": 0,
+    "cooldown": 0,
+    "icon_string": "icon_items.refine_wood11_tex"
+  },
+  {
+    "index": 98674,
+    "rarity": 3,
+    "name_string": "Purified Ornament Fragment",
+    "unk1": 0,
+    "cooldown": 0,
+    "icon_string": "icon_items.refine_wood14_tex"
+  },
+  {
+    "index": 98677,
+    "rarity": 3,
+    "name_string": "Improved Dark Shard Weapon Feedstock",
+    "unk1": 0,
+    "cooldown": 0,
+    "icon_string": "icon_items.enchant_material_darkshard_2_tex"
+  },
+  {
+    "index": 98678,
+    "rarity": 3,
+    "name_string": "Improved Dark Shard Armor Feedstock",
+    "unk1": 0,
+    "cooldown": 0,
+    "icon_string": "icon_items.enchant_material_darkshard_4_tex"
+  },
+  {
+    "index": 248003,
+    "rarity": 3,
+    "name_string": "Refined Lepidoptera Crystal Dust",
+    "unk1": 0,
+    "cooldown": 0,
+    "icon_string": "icon_items.refined_insecta14_tex"
+  },
+  {
+    "index": 248005,
+    "rarity": 3,
+    "name_string": "Purified Ancient Beast Ring Fragment",
+    "unk1": 0,
+    "cooldown": 0,
+    "icon_string": "icon_items.refine_wood11_tex"
+  },
+  {
+    "index": 248006,
+    "rarity": 3,
+    "name_string": "Purified Ancient Beast Ornament Fragment",
+    "unk1": 0,
+    "cooldown": 0,
+    "icon_string": "icon_items.refine_wood14_tex"
   }
 ]
