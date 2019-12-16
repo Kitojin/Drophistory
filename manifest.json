@@ -1,15 +1,18 @@
 {
     "files": {
+        "Old_index.js": "87f0330ca9b151b4b65dd70406f0a16e411e1134180bd1cc455e8758e647745e",
         "README.md": "a74be2d49ed815ddbe7f400b5e314510bb0d061c9096dd0110197bfbe86e94ab",
         "config.json": {
             "overwrite": false,
             "hash": "f69597ee6683b54601c39594e93aa5f36cfe01999f3366d8de73f1b529830b9c"
         },
-        "index.js": "87f0330ca9b151b4b65dd70406f0a16e411e1134180bd1cc455e8758e647745e",
+        "index.js": "572d81caa42a4e51150382f6c7aa5755d7e117dab3c3898400a2edc73e05b88d",
+        "items.json": "b0b844e7907fd67b5e76193be92f7799457aaa1753e83e82d781c88210fe4cd1",
         "module.json": "7cb0da0a6308917911ba7bd0b5d5ab8de9b70e7c5d3d987b6c1d4c3877c56fe6",
-        "readme.md": "a74be2d49ed815ddbe7f400b5e314510bb0d061c9096dd0110197bfbe86e94ab"
+        "readme.md": "d190f6054520f57afa1e57576091453adabf682b84b078c7c2d22030dc3c47ab"
     },
     "defs": {
-        "S_SPAWN_DROPITEM": 8
+        "S_SPAWN_DROPITEM": 8,
+        "S_SYSTEM_MESSAGE": 1
     }
 }

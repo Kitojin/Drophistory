@@ -1,7 +1,7 @@
 ## Info:
 
 - Sends a message in proxy chat when selected items drop.
-
+- if you wanna use the old version , disable auto-update and switch index.js with old_index.js :)
 ---
 
 ## Commands:
