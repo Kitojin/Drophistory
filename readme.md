@@ -17,7 +17,12 @@ Supported Items:
 - Diamond
 - Left/Right Part of Treasure Map
 - Material's for Radiant Acces.
-- All types of Masks
+- All types of Masks(currently only Exodor masks , other masks comming soon)
 - Exodor Token
-- Exodor Gearpieces
+- ALL Exodor Gearpieces
 - Relique & Haildoms
+
+## Roadmap:
+Multi-Lang Support
+better grp member overview
+and more
