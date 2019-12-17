@@ -3,7 +3,7 @@ const config = require('./config');
 const rarityColours = ['#dddddd','#22ff00','#00ddff','#ffbb00']
 
 module.exports = function drophistory(mod){
-	let enabled = config.toggle;
+	/*let enabled = config.toggle;
 	
 	mod.command.add('drophistory', args=>{
 		enabled =! enabled;
@@ -25,6 +25,8 @@ module.exports = function drophistory(mod){
 				mod.command.message(`${msg[2]} dropped <font color="${rarityColours[res.rarity]}">${msg[6]}x ${res.name_string}</font>`)
 			};
 		}
-	});
+	});*/
+	
+	mod.hook('S_REGISTER_ENCHANT_ITEM', 3,{hideSuccessChance=false});
 	
 }
