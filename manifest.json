@@ -4,12 +4,11 @@
             "overwrite": false,
             "hash": "f69597ee6683b54601c39594e93aa5f36cfe01999f3366d8de73f1b529830b9c"
         },
-        "index.js": "572d81caa42a4e51150382f6c7aa5755d7e117dab3c3898400a2edc73e05b88d",
-        "items.json": "f7575c2271a08f7a3b451e7f065c5b3ad4f31c0b017282065ac2e264dbcfc30a",
-        "module.json": "7cb0da0a6308917911ba7bd0b5d5ab8de9b70e7c5d3d987b6c1d4c3877c56fe6"     
+        "index.js": "b9ab17ab74d53514bfeca53f9bca51eb4ab04c3514e6c110d16aefea0258de60",
+        "items.json": "03a43819de8ac3b49a446829675b7452197b85cf16bbb6e0e1456b849f924904",
+        "module.json": "33458714cfb233a1685ff82f48f38b6bade1839b41e78a9b9e904a8a17c85488"
     },
     "defs": {
-        "S_SPAWN_DROPITEM": 8,
         "S_SYSTEM_MESSAGE": 1
     }
 }
