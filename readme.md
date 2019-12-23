@@ -3,6 +3,7 @@
 - Sends a message in proxy chat when selected items drop.
 - Item names are directly queried from Datacenter and as such are localised to your client's language.
 
+
 ---
 
 ## Commands:
@@ -16,10 +17,15 @@
 
 Supported Items:
 
-- Diamond
+- Diamonds
 - Left/Right Part of Treasure Map
-- Material's for Radiant Acces.
+
 - All types of Transcendent/Bahaar Masks
-- Exodor Token
+- Exodor Tokens
 - Exodor Gearpieces
 - Relics & Haildoms
+
+## Roadmap:
+- better grp member overview coming soon
+- and more 
+

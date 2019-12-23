@@ -1,7 +1,7 @@
 {
     "disableAutoUpdate": false,
     "name": "Drophistory",
-    "author": "Neko",
+    "author": "Neko | Kitty",
     "description": "Sends a message in proxy chat when selected items drop",
     "options": {
         "niceName": "Drophistory",

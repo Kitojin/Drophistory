@@ -35,14 +35,8 @@ module.exports = function drophistory(mod){
 			}).catch(e=>{mod.error(e);});
 		}	
 	}
-	/*
-	mod.hook('S_SPAWN_DROPITEM', 8, e=>{
-		if (!enabled) return;
-		var res = items.find(item => item.id == e.item);
-		//TODO: Query datacenter to get localised strings?
-		if(res){mod.command.message(`Dropped <font color="${rarityColours[res.rarity]}">${res.name_string}</font>`);}
-	});*/
 	
+
 	mod.hook('S_SYSTEM_MESSAGE', 1, handleSysMsg);
 	mod.hook('S_SYSTEM_MESSAGE_LOOT_SPECIAL_ITEM', 1, handleSysMsg);
 	mod.hook('S_SYSTEM_MESSAGE_LOOT_ITEM',1, handleSysMsg);
