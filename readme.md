@@ -1,6 +1,7 @@
 ## Info:
 
 - Sends a message in proxy chat when selected items drop.
+- Item names are directly queried from Datacenter and as such are localised to your client's language.
 
 ---
 
@@ -18,7 +19,7 @@ Supported Items:
 - Diamond
 - Left/Right Part of Treasure Map
 - Material's for Radiant Acces.
-- All types of Masks
+- All types of Transcendent/Bahaar Masks
 - Exodor Token
 - Exodor Gearpieces
-- Relique & Haildoms
+- Relics & Haildoms
