@@ -57,10 +57,12 @@ module.exports = function drophistory(mod) {
 		},
 
 		whitelist(item) {
-			//TODO: strip chatlink to get item id
-			console.log(item);
+			//TODO:  check if this works <- strip chatlink to get item id
+			console.log(item.replace(/^<.*#+/, '').replace(/@.+$/));
 			//TODO: Add item to whitelist and re-query DC to get localised itemname
-			/*whitelist.push(Number(item))
+			/*
+			item = item.replace(/^<.*#+/, '').replace(/@.+$/)
+			whitelist.push(parseInt(item))
 			mod.queryData('/StrSheet_Item/String@id=?',[parseInt(item)]).then(res=>{
 				itemNames.set(item, res.attributes.string);
 			}).catch(e=>{mod.error(e)});*/
