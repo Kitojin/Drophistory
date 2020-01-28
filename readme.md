@@ -15,7 +15,7 @@
 
 * **`dh`**
   * to enable/disable this Mod.
-  * **`file/chat/party/self`**
+  * **`log file/chat/party/self`**
     * to toggle between different logging modes
 	* multiple modes can be toggle at the same time (e.g. `dh file chat self` to toggle all three at once)
   * **`save`**
@@ -32,6 +32,7 @@
 
 * adding blacklist support
 * toggling individual players to be tracked instead of the whole party
+* UI support
 
 </details>
 
