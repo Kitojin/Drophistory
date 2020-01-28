@@ -12,12 +12,14 @@ module.exports = function drophistory(mod) {
 		mod.queryData('/StrSheet_Item/String@id=?', [parseInt(item)]).then(res => {
 			itemNames.set(+item, res.attributes.string);
 		}).catch(e => { mod.error(e) });
+
 	}
 
 	mod.command.add('dh', {
 		$none() {
 			config.enable = !config.enable;
 			mod.command.message(`drophistory ${config.enable ? 'en' : 'dis'}abled`);
+
 		},
 
 		log(...args) {
@@ -38,7 +40,7 @@ module.exports = function drophistory(mod) {
 				}
 				if (args.includes('self')) {
 					config.selfLogging = !config.selfLogging;
-					if (config.selfLogging) AddToSetIfNew(mod.game.me.name);
+					if (config.selfLogging) AddToSetIfNew(mod.game.me.name);					
 				}
 			}
 			showCurrentLogState();
@@ -140,7 +142,6 @@ module.exports = function drophistory(mod) {
 		//add admount of stats to exo items and construct chat message.
 		const statItem = config.exoItems.find(i => i.id == msg.tokens.ItemName[0]);
 		const chatActionLinkString = `<ChatLinkAction param=\"1#####${msg.tokens.ItemName[0]}@${msg.tokens.ItemName[1]}@${msg.tokens.UserName}\">`;
-		//This is an abomination, don't look at it. Seriously. DO NOT TOUCH!
 
 		let chatMsg = [
 			`${msg.tokens.UserName} picked up`,																//playername
