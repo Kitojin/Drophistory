@@ -1,14 +1,15 @@
 {
     "files": {
-        "config.json": {
-            "overwrite": false,
-            "hash": "f69597ee6683b54601c39594e93aa5f36cfe01999f3366d8de73f1b529830b9c"
-        },
-        "index.js": "b9ab17ab74d53514bfeca53f9bca51eb4ab04c3514e6c110d16aefea0258de60",
-        "items.json": "03a43819de8ac3b49a446829675b7452197b85cf16bbb6e0e1456b849f924904",
-        "module.json": "33458714cfb233a1685ff82f48f38b6bade1839b41e78a9b9e904a8a17c85488"
+    	"index.js": "e1380191160d3752139baf6f92f04287c1c8a7ace0fffa1e6d5f44616a842e7c",
+    	"module.json": "5a5598be91783413ba54401da669dfe933552bcf8d61430e6544743c54f5eb1b",
+    	"readme.md": "f84bde8086ba43521b79a4680a90150513bc585fedb97c13c0531c84ec4441d1",
+    	"settings.js": "a5ad1e5c449eb937488074b6534db899a741d119826cd9b684646f7052ffbef2"  
     },
     "defs": {
-        "S_SYSTEM_MESSAGE": 1
+        "S_SYSTEM_MESSAGE": 1,
+	"S_SYSTEM_MESSAGE_LOOT_SPECIAL_ITEM": 1,
+	"S_SYSTEM_MESSAGE_LOOT_ITEM": 1,
+	"S_PARTY_MEMBER_LIST": 7,
+	"S_LOGIN": 14
     }
 }
