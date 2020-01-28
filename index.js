@@ -12,14 +12,12 @@ module.exports = function drophistory(mod) {
 		mod.queryData('/StrSheet_Item/String@id=?', [parseInt(item)]).then(res => {
 			itemNames.set(+item, res.attributes.string);
 		}).catch(e => { mod.error(e) });
-
 	}
 
 	mod.command.add('dh', {
 		$none() {
 			config.enable = !config.enable;
 			mod.command.message(`drophistory ${config.enable ? 'en' : 'dis'}abled`);
-
 		},
 
 		log(...args) {
@@ -40,7 +38,7 @@ module.exports = function drophistory(mod) {
 				}
 				if (args.includes('self')) {
 					config.selfLogging = !config.selfLogging;
-					if (config.selfLogging) AddToSetIfNew(mod.game.me.name);					
+					if (config.selfLogging) AddToSetIfNew(mod.game.me.name);
 				}
 			}
 			showCurrentLogState();
@@ -152,7 +150,6 @@ module.exports = function drophistory(mod) {
 			`&gt;${(msg.tokens.ItemName.length > 1 ? '</ChatLinkAction>' : '')}</font>`						//close link tag if item is a gearpiece
 		]
 		mod.command.message(chatMsg.join(''))
-		//mod.command.message(`${msg.tokens.UserName} picked up <font color="${rarityColours[rarity]}">${(msg.tokens.ItemName.length > 1 ? chatActionLinkString : '')}&lt;${msg.tokens.ItemAmount}x ${itemNames.get(parseInt(msg.tokens.ItemName[0])) + (statItem ? statItem.statString : '')}&gt;${(msg.tokens.ItemName.length > 1 ? '</ChatLinkAction>' : '')}</font>`);
 	}
 
 	function updateFileLog(msg) {
