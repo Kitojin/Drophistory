@@ -1,12 +1,14 @@
 {
     "disableAutoUpdate": false,
     "name": "Drophistory",
-    "author": "Neko",
-    "description": "Sends a message in proxy chat when selected items drop",
+    "author": "Kitoyo",
+    "description": "Notifies and keeps track of dropped items for you with configurable whitelist and file export",
     "options": {
-        "niceName": "Drophistory",
-        "guiName": "Drophistory"
+	"reloadable": false,
+	"settingsVersion": 1,
+        "settingsFile": "config.json",
+        "settingsMigrator": "settings.js"
     },
-    "servers": ["https://raw.githubusercontent.com/patricksantozz/Drophistory/master/"],
-    "supportUrl": "https://github.com/patricksantozz/Drophistory/issues"
+    "servers": ["https://raw.githubusercontent.com/phr3nic/Drophistory/master/"],
+    "supportUrl": "https://github.com/phr3nic/Drophistory/issues"
 }

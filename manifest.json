@@ -1,15 +1,15 @@
 {
     "files": {
-        "README.md": "a74be2d49ed815ddbe7f400b5e314510bb0d061c9096dd0110197bfbe86e94ab",
-        "config.json": {
-            "overwrite": false,
-            "hash": "f69597ee6683b54601c39594e93aa5f36cfe01999f3366d8de73f1b529830b9c"
-        },
-        "index.js": "87f0330ca9b151b4b65dd70406f0a16e411e1134180bd1cc455e8758e647745e",
-        "module.json": "7cb0da0a6308917911ba7bd0b5d5ab8de9b70e7c5d3d987b6c1d4c3877c56fe6",
-        "readme.md": "a74be2d49ed815ddbe7f400b5e314510bb0d061c9096dd0110197bfbe86e94ab"
+    	"index.js": "11bccdd0c669544159d97eefa2c32de132d5277596628fd8599fee0b1ce226bd",
+    	"module.json": "5a5598be91783413ba54401da669dfe933552bcf8d61430e6544743c54f5eb1b",
+    	"readme.md": "bd2238ef68203a4ee8bd03cbed525001576f5d1c246244fb51623c18ef0094a7",
+    	"settings.js": "a5ad1e5c449eb937488074b6534db899a741d119826cd9b684646f7052ffbef2"  
     },
     "defs": {
-        "S_SPAWN_DROPITEM": 8
+        "S_SYSTEM_MESSAGE": 1,
+	"S_SYSTEM_MESSAGE_LOOT_SPECIAL_ITEM": 1,
+	"S_SYSTEM_MESSAGE_LOOT_ITEM": 1,
+	"S_PARTY_MEMBER_LIST": 7,
+	"S_LOGIN": 14
     }
 }
