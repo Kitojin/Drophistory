@@ -1,9 +1,9 @@
 {
     "files": {
-    	"index.js": "11bccdd0c669544159d97eefa2c32de132d5277596628fd8599fee0b1ce226bd",
+    	"index.js": "1798ec40aed04c9b5393247f461e401fd6efe422523196413eb592688ac6e43b",
     	"module.json": "5a5598be91783413ba54401da669dfe933552bcf8d61430e6544743c54f5eb1b",
-    	"readme.md": "bd2238ef68203a4ee8bd03cbed525001576f5d1c246244fb51623c18ef0094a7",
-    	"settings.js": "a5ad1e5c449eb937488074b6534db899a741d119826cd9b684646f7052ffbef2"  
+    	"readme.md": "58189b6b20540731ea9e5822eb041aecf573eeddf28f2dc70e66dfaaf563ea77",
+    	"settings.js": "a5ad1e5c449eb937488074b6534db899a741d119826cd9b684646f7052ffbef2"
     },
     "defs": {
         "S_SYSTEM_MESSAGE": 1,
