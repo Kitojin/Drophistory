@@ -3,11 +3,12 @@
 const DefaultSettings = {
 	enable: true,
 
-	partyLogging: true,
-	selfLogging: true,
-	
-	logToFile: true,
-	logToChat: true,
+	logMode: {
+		party: true,
+		self: true,
+		file: true,
+		chat: true
+	}
 
 	rarityColours: [
 		'#ffffff', 	//white
