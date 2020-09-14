@@ -14,31 +14,14 @@ const DefaultSettings = {
 		'#ffffff', 	//white
 		'#22ff00',	//green
 		'#00ccff',	//blue
-		'#ffcc00'	//yellow
-		//TODO: add Mythical
+		'#ffcc00',	//yellow
+		'#c63db6'	//mythical
 	],
 
 	whitelist: [
-		//Diamond
-		369,
-		//Treasure Maps
-		206855,
-		206856,
-		206869,
-		206870,
-
-		//Elinu's Relic I-V
-		89020,
-		89021,
-		89022,
-		89023,
-		89024,
-		//Tithus's Relic I-V
-		89030,
-		89031,
-		89032,
-		89033,
-		89034,
+		//SoH Map
+		206884,
+	
 		//Amarun's Relic I-V
 		89040,
 		89041,
@@ -46,18 +29,6 @@ const DefaultSettings = {
 		89043,
 		89044,
 
-		//Karas's Halidom I-V
-		89120,
-		89121,
-		89122,
-		89123,
-		89124,
-		//Dagon's Halidom I-V
-		89130,
-		89131,
-		89132,
-		89133,
-		89134,
 		//Ishara's Halidom I-V
 		89140,
 		89141,
@@ -65,29 +36,38 @@ const DefaultSettings = {
 		89143,
 		89144,
 
-		//Bahaar Masks
-		88849,
-		88850,
-		88851,
-		88852,
-		//Transcendent Masks
-		88784,
-		88785,
-		88786,
-		88787,
-
-		//Dark Shard Feedstock
-		98675,
-		98676,
-		98677,
-		98678,
-		//Dark Shard Feedstock boxes
-		89739,
-		89738,
 		//Exodor Belt/Mask Tokens
 		209123,
 		209124,
 		209127,
+	
+		//Zenobia
+		206976,
+		206960,
+	
+		//Gear crates
+		90923,
+		206951,
+		206953,
+		206952,
+		206950,
+		209126,
+		209125,
+	
+		//Warlord accs
+		89805,
+		89806,
+		89807,
+		89808,
+		89898,
+		89899,
+		89900,
+	
+		//Resizing stones
+		89809,
+		89810,
+		89901,
+		89902,
 
 		//Exodor Gear pieces
 		89509,
